@@ -35,27 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// script.js
-
-document.addEventListener("DOMContentLoaded", function() {
-    const loaderContainer = document.getElementById('loader-container');
-    const contentContainer = document.getElementById('content-container');
-  
-    // Show the loader initially
-    loaderContainer.style.display = 'flex';
-  
-    // Blur the content initially
-    contentContainer.style.filter = 'blur(5px)';
-  
-    // Simulate a delay (you can replace this with actual loading logic)
-    setTimeout(function() {
-      // Hide the loader
-      loaderContainer.style.display = 'none';
-  
-      // Remove the blur effect from content
-      contentContainer.style.filter = 'none';
-    }, 3000); // Adjust the time as per your needs
-  });
   
 
 
